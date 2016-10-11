@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+	position: relative;
+	top: 10%;
+}
+.main{
+	
+	background-color: grey;
+	height: 75%;
+	border: 1px solid black;
+}
+.block{
+	height: 200px;
+	background-color: white;
+	border: 1px solid black;
+}
+.blockrouge{
+		height: 200px;
+	background-color: red;
+	border: 1px solid black;
+}
+.blockjaune{
+	background-color: yellow;
+}
+.blockvert{
+	background-color: green;
+}
+.blockbleu{
+	background-color: blue;
+}
+.blockviolet{
+	background-color: purple;
+}
