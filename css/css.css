@@ -1,0 +1,169 @@
+/* -------------------------------------------- corp -------------------------------------------------------*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../image/swirl_pattern.png");
+    position: relative;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+/*--------------------------------------------- header ----------------------------------------------------------*/
+
+header {
+    height: 200px;
+    background-color: #525868e6;
+    margin-bottom: 4px;
+}
+
+#header {
+    margin-bottom: 16px;
+    height: 133px;
+
+}
+
+#image_identite {
+    text-align: center;
+    padding-top: 2%;
+}
+
+img#img_photo_identite {
+    height: 110px;
+    width: 110px;
+    padding-top: 0px;
+}
+
+p.titre{
+font-family: 'Bungee Shade';
+font-size: 2em;
+color: #050000;
+padding-top: 4%;
+padding-left: 3%;
+}
+
+@media (max-width: 768px){
+	.titre{
+		display: none;
+	}
+}
+
+
+
+/* ---------------------------------------Navbar-------------------------------------------------------------------------- */
+
+.affix{
+	top: 0px;
+	 z-index: 9999 !important;
+}
+.navbar-default {
+    background-color: #000000B3 !important;
+    border-color: #020202;
+}
+
+.navbar {
+    border-radius: 0px !important;
+    max-height: 49px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #B4B4B4;
+    z-index: 99;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #B4B4B4;
+}
+.navbar-toggle{
+	margin-left: 18px;
+}
+
+ul.nav.navbar-nav.row{
+	width: 100%;
+}
+
+@media(max-width: 992px) and (min-width: 768px){
+i.fa-menu{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+   
+}
+@media (max-width: 768px){
+	#navbar{
+		background-color: #3e3e3e;
+	}
+
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+
+    z-index: 99;
+}
+
+
+/*----------------------------------------- page ------------------------------------*/
+
+.pls{
+	padding-left: 10px;
+}
+.plm{
+	padding-left: 20px;
+}
+.pll{
+	padding-left: 30px;
+}
+
+section{
+
+	background-color: #dadada;
+	margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+section h1{
+    font-family: Raleway;
+}
+/*----------------------------------------- zone 1 -------------------------------------------*/
+
+/*----------------------------------------- zone 2 -------------------------------------------*/
+#img-logo-ecetech{
+	width: 20%;
+}
+
+
+/*------------------------------------- zone 3 ----------------------------------------------- */
+
+.block-competance{
+
+border: 1px solid white;
+min-height: 100px;
+text-align: center;
+border-radius: 22px;
+margin-bottom: 35px;
+
+}
+
+/*------------------------------------- zone 4 ----------------------------------------------- */
+
+#img-plage{
+    max-width: 100%;
+}
