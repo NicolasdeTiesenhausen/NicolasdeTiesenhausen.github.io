@@ -35,3 +35,8 @@ html, body {
 .blockviolet{
 	background-color: purple;
 }
+@media (min-width: 1200px){
+	body{
+		background-color: red;
+	}
+}
