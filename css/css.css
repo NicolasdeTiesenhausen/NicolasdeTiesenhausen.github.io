@@ -3,11 +3,18 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Lora', serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     background-image: url("../image/swirl_pattern.png");
     position: relative;
+}
+li{
+  /*  list-style-type: none; */
 }
 
 .row {
@@ -117,8 +124,27 @@ i.fa-menu{
     z-index: 99;
 }
 
+@media (min-width: 1200px){
+   .affix #container_perso{
+        width: 1139px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+   .affix #container_perso{
+        width: 939px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+   .affix #container_perso{
+        width: 718px !important;
+    }
+}
 
 /*----------------------------------------- page ------------------------------------*/
+.main h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
 
 .pls{
 	padding-left: 10px;
@@ -128,6 +154,12 @@ i.fa-menu{
 }
 .pll{
 	padding-left: 30px;
+}
+.mbl{
+    margin-bottom: 30px;
+}
+.mtl{
+    margin-top: 30px;
 }
 
 section{
@@ -148,10 +180,14 @@ section h1{
 #img-logo-ecetech{
 	width: 20%;
 }
-
+#css_deuxieme_section{
+    background-color: #b7c2b7;
+}
 
 /*------------------------------------- zone 3 ----------------------------------------------- */
-
+#troisieme_section{
+    background-color: #c9b58f;
+}
 .block-competance{
 
 border: 1px solid white;
@@ -162,6 +198,13 @@ margin-bottom: 35px;
 
 }
 
+h3.titre_etudes{
+    margin-top: 5px !important;
+    margin-bottom: 25px !important; 
+}
+.col-12-titre-etudes{
+    margin-bottom: 20px !important;
+}
 /*------------------------------------- zone 4 ----------------------------------------------- */
 
 #img-plage{
